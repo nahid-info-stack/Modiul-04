@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box Layout</title>
+    <style>
+        .container div{
+            border: 2px solid yellowgreen;
+            height: 70px;
+            font-size: 3rem;
+            width: 200px;
+        }
+        .container{
+             display: flex; 
+             gap: 12px;
+            
+        }
+        .box_container{
+            display: flex;
+            gap: 10px;
+        }
+        .box{
+            font-size: 2rem;
+            height: 50px;
+            width: 100px;
+            border: 2px solid burlywood;
+            margin-top: 20px;
+        }
+        .card{
+            display: flex;
+            justify-content: space-evenly;
+            gap: 10px;
+        }
+        .user{
+            height: 100px;
+            width: 100px;
+            background-color: aquamarine;
+            color: #000;
+            border: 2px solid gold;
+            margin-top: 20px;
+        }
+        .card-container{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .boxs{
+            height: 200px;
+            /* width: 300px; */
+            background-color: cadetblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+        .boxs1{
+            height: 100px;
+            width: 100px;
+             background-color: blueviolet; 
+             /* margin: 0 auto; */
+        }
+        .margin-box{
+            height: 300px;
+            background-color: chartreuse;
+        }
+        .m-box{
+            height: 100px;
+            width: 100px;
+            background-color: blueviolet;
+            color: palevioletred;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+    </div>
+    <div class="box_container">
+    <div class="box">1</div>
+    <div class="box">2</div>
+    <div class="box">3</div>
+    <div class="box">4</div>
+    <div class="box">5</div>
+    <div class="box">6</div>
+    </div>
+    <div class="card">
+        <div class="user">card-1</div>
+        <div class="user">card-2</div>
+        <div class="user">card-3</div>
+    </div>
+    <div class="card-container">
+        <div class="user">1 Items</div>
+        <div class="user">2 Items</div>
+        <div class="user">3 Items</div>
+        <div class="user">4 Items</div>
+        <div class="user">5 Items</div>
+        <div class="user">6 Items</div>
+        <div class="user">7 Items</div>
+        <div class="user">8 Items</div>
+        <div class="user">9 Items</div>
+        <div class="user">10 Items</div>
+        <div class="user">11 Items</div>
+        <div class="user">12 Items</div>
+    </div>
+    <section>
+        <h1>Center Flex </h1>
+        <div class="boxs">
+            <div class="boxs1">
+                box content
+            </div>
+
+        </div>
+    </section>
+    <section>
+        <div class="margin-box">
+            <div class="m-box">margin box</div>
+        </div>
+    </section>
+</body>
+</html>
