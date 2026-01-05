@@ -34,3 +34,11 @@ ul li a:hover{
 ul li a:active{
     color: green;
 }
+table{
+    border-collapse: collapse;
+    margin: 30px;
+}
+td, th{
+    border: 1px solid black;
+    padding: 5px 10px;
+}
